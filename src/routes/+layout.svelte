@@ -1,16 +1,16 @@
 <script>
   import "../app.css";
   import Menu from "./Menu.svelte";
+	import Footer from "./Footer.svelte";
 </script>
 
-<div>
+<div class="max-w-7xl bg-base-100 p-4 md:px-12 border border-base-300">
 	<Menu />
 
-	<main>
+	<main class="mt-16 sm:mt-20">
 		<slot />
 	</main>
 
-	<footer>
-		<!-- <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p> -->
-	</footer>
+	<!-- <Footer /> -->
+		
 </div>
