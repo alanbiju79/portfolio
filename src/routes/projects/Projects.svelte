@@ -66,19 +66,11 @@
   let cardHoverable = (status) => {return status === "in_progress" ? "cursor-default" : "hover:bg-base-200"};
 </script>
 
-<style>
-  .fit-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* or 'contain' depending on your needs */
-  }
-</style>
-
 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
   {#each projects as project (project.name)}
     <a href={project.url} target="_blank">
-      <div class="card w-full h-96 md:h-[420px] xl:h-96 shadow-xl group {cardHoverable(project.status)}">
-        <figure class="h-52 md:h-64 xl:h-52"><img src={project.image} alt={project.name} /></figure>
+      <div class="card w-full h-full shadow-xl group {cardHoverable(project.status)}">
+        <figure class="h-44"><img src={project.image} alt={project.name} /></figure>
         <div class="card-body">
           <h2 class="card-title">
             {project.name}

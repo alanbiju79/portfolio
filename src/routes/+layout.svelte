@@ -4,7 +4,7 @@
 	import Footer from "./Footer.svelte";
 </script>
 
-<div class="max-w-7xl bg-base-100 p-4 md:px-12 border border-base-300">
+<div class="w-full max-w-7xl bg-base-100 py-8 px-4 sm:px-24 border border-base-200 min-h-screen">
 	<Menu />
 
 	<main class="mt-16 sm:mt-20">

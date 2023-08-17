@@ -5,20 +5,24 @@
 @layer base {
   body {
     @apply flex flex-col items-center
+    xl:px-[105px]
     bg-base-200
-    font-sans
-    min-h-screen;
+    font-sans;
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl font-bold;
+    @apply text-5xl font-bold tracking-tight;
   }
 
   h2 {
-    @apply text-xl;
+    @apply font-semibold text-lg tracking-tight;
+  }
+
+  h3 {
+    @apply font-semibold tracking-tight;
   }
 
   .text-gray {
-    @apply text-neutral-400;
+    @apply text-neutral-500;
   }
 }
