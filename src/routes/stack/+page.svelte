@@ -11,7 +11,7 @@
       like trying to build a house without a hammer - possible, but incredibly difficult and time-consuming. 
       Fortunately, some great tools and exist to ease the process and stay productive.
       <br>
-      Here's a big list of all of my favorite stuff.
+      Here's a big list of all of my favorite&nbspstuff.
     </p>
   </div>
   

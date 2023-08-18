@@ -89,7 +89,7 @@
           link: "https://www.notion.so/"
         },
         {
-          name: "Chat GPT",
+          name: "ChatGPT",
           description: "Used for general learing, debugging pesky code, writing copy and getting ideas on how to approach certain problems.",
           link: "https://chat.openai.com/"
         },
