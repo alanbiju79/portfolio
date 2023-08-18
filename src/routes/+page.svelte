@@ -11,6 +11,7 @@
       transform: translate(-50%, -50%);
     }
   }
+  /*  */
 </style>
 
 <div class="flex flex-col max-w-2xl container">
