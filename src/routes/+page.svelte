@@ -2,7 +2,18 @@
   import pp from '$lib/images/alan.jpeg';
 </script>
 
-<div class="flex flex-col max-w-2xl mx-auto sm:h-screen sm:-mt-52 justify-center items-center">
+<style>
+  @media (min-width: 640px) {
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+</style>
+
+<div class="flex flex-col max-w-2xl container">
   <img src={pp} alt="alan" class="rounded-full h-20 mx-auto">
   <h1 class="text-center mt-6">Building, Learning, Growing.</h1>
 
