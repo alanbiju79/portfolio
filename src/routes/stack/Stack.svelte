@@ -98,10 +98,10 @@
   ]
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-y-16 gap-x-16 md:border-l md:border-zinc-100 md:pl-6 max-w-3xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-16 md:border-l md:pl-6 max-w-3xl">
   {#each stack as category}
-    <h2>{Object.keys(category)}</h2>
-    <div class="md:col-span-3 space-y-8">
+    <h2 class="mt-8 first:mt-0 md:mt-0">{Object.keys(category)}</h2>
+    <div class="md:col-span-3 flex flex-col gap-4 md:gap-8 pl-6 md:pl-0 border-l md:border-0">
       {#each category[Object.keys(category)[0]] as item (item.name)}
         <div class="flex flex-col">
           {#if item.link}
