@@ -7,6 +7,8 @@
   import palms from '$lib/images/home/palms.webp';
 </script>
 
+<title>Home - Alan Biju</title>
+
 <div class="flex flex-col max-w-2xl">
   <img src={pp} alt="alan" class="rounded-full h-20 w-20">
   <h1 class="mt-6">Building, Learning, Growing.</h1>

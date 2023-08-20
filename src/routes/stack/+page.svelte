@@ -2,6 +2,8 @@
   import Stack from "./Stack.svelte";
 </script>
 
+<title>Stack - Alan Biju</title>
+
 <div class="">
   <div class="max-w-2xl">
     <h1>Software I use, gadgets I love, and other things I recommend.</h1>
