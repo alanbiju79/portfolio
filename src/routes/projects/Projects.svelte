@@ -70,7 +70,7 @@
   {#each projects as project (project.name)}
     <a href={project.url} target="_blank">
       <div class="card w-full h-full shadow-xl group {cardHoverable(project.status)}">
-        <figure class="h-44"><img src={project.image} alt={project.name} /></figure>
+        <figure class="h-44"><img src={project.image} alt={project.name} loading="lazy" /></figure>
         <div class="card-body">
           <h2 class="card-title">
             {project.name}
