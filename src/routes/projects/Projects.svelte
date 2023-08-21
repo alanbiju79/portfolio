@@ -1,10 +1,10 @@
 <script>
-  import rsr from '$lib/images/screenshots/rsr.png';
-  import dishy from '$lib/images/screenshots/dishy.jpeg';
-  import zedball from '$lib/images/screenshots/zedball.png';
-  import cookiechimp from '$lib/images/screenshots/cookiechimp.png';
-  import rapidRails from '$lib/images/screenshots/rapid-rails.png';
-  import execpal from '$lib/images/screenshots/execpal.png';
+  import rsr from '$lib/images/screenshots/rsr.webp';
+  import dishy from '$lib/images/screenshots/dishy.webp';
+  import zedball from '$lib/images/screenshots/zedball.webp';
+  import cookiechimp from '$lib/images/screenshots/cookiechimp.webp';
+  import rapidRails from '$lib/images/screenshots/rapid-rails.webp';
+  import execpal from '$lib/images/screenshots/execpal.webp';
   import Project from './Project.svelte'
 
   const projects = [
