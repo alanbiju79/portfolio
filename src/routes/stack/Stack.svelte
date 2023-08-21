@@ -50,6 +50,11 @@
           description: "The cleanest and easiest frontend JS framework I've tried. So good that I used it to build this site!",
           link: "https://kit.svelte.dev/"
         },
+        {
+          name: "Tailwind CSS",
+          description: "Easy to understand utility classes that makes writing CSS so much more enjoyable.",
+          link: "https://tailwindcss.com/"
+        },
       ]
     },
     {

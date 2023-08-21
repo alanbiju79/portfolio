@@ -2,7 +2,10 @@
   import Stack from "./Stack.svelte";
 </script>
 
-<title>Stack - Alan Biju</title>
+<svelte:head>
+  <title>Stack - Alan Biju</title>
+  <meta name="description" content="Discover the software I use, gadgets I love, and other recommendations that make software development easier and more productive. Explore my favorite stuff in this comprehensive list.">
+</svelte:head>
 
 <div class="">
   <div class="max-w-2xl">

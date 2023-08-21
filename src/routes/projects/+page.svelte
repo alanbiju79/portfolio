@@ -2,7 +2,10 @@
   import Projects from "./Projects.svelte";
 </script>
 
-<title>Projects - Alan Biju</title>
+<svelte:head>
+  <title>Projects - Alan Biju</title>
+  <meta name="description" content="Explore a collection of projects that I'm most proud of.">
+</svelte:head>
 
 <div class="max-w-2xl">
   <h1>Projects that showcase my journey as a programmer.</h1>
