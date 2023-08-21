@@ -8,7 +8,7 @@
 </script>
 
 {#key data.url}
-	<div class="w-full max-w-7xl bg-base-100 py-8 px-4 sm:px-24 border border-base-200 min-h-screen">
+	<div class="w-full max-w-7xl bg-base-100 py-8 px-4 sm:px-24 xl:border xl:border-base-200 min-h-screen">
 		<Menu />
 
 		<main class="mt-16 sm:mt-20"
