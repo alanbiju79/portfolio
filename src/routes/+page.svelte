@@ -6,6 +6,7 @@
   import bb from '$lib/images/home/big-ben.webp';
   import palms from '$lib/images/home/palms.webp';
   import Socials from './Socials.svelte'
+  import cv from '$lib/files/alan_biju_cv.pdf';
 </script>
 
 <svelte:head>
@@ -24,8 +25,17 @@
     while also exploring new technologies that allow me to be a more productive&nbspprogrammer.
   </p>
 
-  <div class="flex flex-row gap-2 mt-6">
-    <Socials />
+  <div class="flex flex-row justify-between mt-6">
+    <div class="flex flex-row gap-2 my-auto">
+      <Socials />
+    </div>
+
+    <a href="{cv}" class="btn btn-outline btn-sm hover:bg-accent hover:border-accent normal-case" download>
+      Download CV
+      <svg fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"></path>
+      </svg>
+    </a>
   </div>
 </div>
 
