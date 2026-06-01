@@ -1,6 +1,7 @@
 <script>
-  import { page } from '$app/stores';
-  $:selected = (path) => $page.url.pathname === path ? 'active' : '';
+  import { page } from '$app/state';
+
+  const selected = (path) => page.url.pathname === path ? 'active' : '';
 </script>
 
 <div class="flex justify-center">
